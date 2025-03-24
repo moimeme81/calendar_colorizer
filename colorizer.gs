@@ -27,8 +27,8 @@ function colorizeEventsBasedOnOrganizer() {
   // Define the time range for events to be processed adjust as needed
   var now = new Date();
   var sixMonthsFromNow = new Date();
-  sixMonthsFromNow.setMonth(now.getMonth() + 6);
-  
+  sixMonthsFromNow.setMonth(now.getMonth() + 1); //tried 6 months but found it only works some of the times
+
   // Fetch events within the specified time range
   var events = targetCalendar.getEvents(now, sixMonthsFromNow);
   
