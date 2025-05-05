@@ -8,7 +8,9 @@ function colorizeEventsBasedOnOrganizer() {
     Logger.log('Target calendar not found or access denied. Check the Calendar ID and permissions.');
     return;
   }
-  
+  /*
+
+*/
   // Define the color mapping for organizers and their specific calendars
   var colorMapping = {
     'organizer1@example.com': {
