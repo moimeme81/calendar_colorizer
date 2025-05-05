@@ -9,7 +9,17 @@ function colorizeEventsBasedOnOrganizer() {
     return;
   }
   /*
-
+PALE_BLUE	referred to as "Peacock"
+PALE_GREEN	referred to as "Sage"
+MAUVE	refdered to as "Grape"
+PALE_RED	referred to as "Flamingo"
+YELLOW	referred to as "Banana"
+ORANGE	referred to as "Tangerine"
+CYAN	referred to as "Lavender"
+GRAY	"Graphite"
+BLUE	referred to as "Blueberry"
+GREEN	referred to as "Basil"
+RED	referred to as "Tomato"
 */
   // Define the color mapping for organizers and their specific calendars
   var colorMapping = {
