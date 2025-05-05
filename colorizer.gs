@@ -8,7 +8,7 @@ function colorizeEventsBasedOnOrganizer() {
     Logger.log('Target calendar not found or access denied. Check the Calendar ID and permissions.');
     return;
   }
-  /*
+  /*color names and app reference
 PALE_BLUE	referred to as "Peacock"
 PALE_GREEN	referred to as "Sage"
 MAUVE	refdered to as "Grape"
